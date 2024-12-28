@@ -19,6 +19,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		logger.info("Application executed...");
+		logger.info("Test case executing second log statement...");
 		SpringApplication.run(Application.class, args);
 	}
 
