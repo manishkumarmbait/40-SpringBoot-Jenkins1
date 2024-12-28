@@ -13,7 +13,7 @@ public class Application {
 	public static Logger logger = LoggerFactory.getLogger(Application.class);
 
 	@PostConstruct
-	public void intt() {
+	public intt() {
 		logger.info("Application started...");
 	}
 
